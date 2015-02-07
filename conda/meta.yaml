@@ -1,0 +1,18 @@
+package:
+  name: openblas
+  version: "0.2.13"
+
+source:
+  fn: OpenBLAS-v0.2.13-Win64-int64.zip  # [win64]
+  url: http://sourceforge.net/projects/openblas/files/v0.2.13/OpenBLAS-v0.2.13-Win64-int64.zip/download  # [win64]
+  sha1: 2de6c41abce8c4ddbca4774906d674b7eabe8039  # [win64]
+  fn: OpenBLAS-v0.2.13-Win32-int32.zip  # [win32]
+  url: http://sourceforge.net/projects/openblas/files/v0.2.13/OpenBLAS-v0.2.13-Win64-int32.zip/download  # [win32]
+  sha1: 97c45d97a50df14bc1bb41132bc1f7c9717d6000  # [win32]
+ 
+build:
+  number: 0
+
+about:
+  home: http://www.openblas.net/
+  license: BSD
